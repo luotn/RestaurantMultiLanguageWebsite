@@ -31,7 +31,7 @@ function changeTo(lang, page)
 {
     console.log("Changing to " + lang);
     updateSelector(lang);
-    fetch("js/lang.json")
+    fetch("./js/lang.json")
         .then(response => response.json())
         .then(langObj => {
             let target = langObj.pages;

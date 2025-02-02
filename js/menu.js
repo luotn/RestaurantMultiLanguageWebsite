@@ -1,5 +1,5 @@
 function loadMenu() {
-    fetch("js/lang.json")
+    fetch("./js/lang.json")
             .then(response => response.json())
             .then(langObj => {
                 let menuObj = langObj.pages.menu.en;
@@ -24,8 +24,8 @@ function loadMenu() {
                                 result += 
                                 '<div class="col">' +
                                     '<div class="card">' +
-                                        '<a href="thumbnails/' + `${item}` +'.JPG">' +
-                                            '<img src="thumbnails/' + `${item}` + '.JPG" class="card-img-top" alt="Image missing...">' +
+                                        '<a href="./thumbnails/' + `${item}` +'.JPG">' +
+                                            '<img src="./thumbnails/' + `${item}` + '.JPG" class="card-img-top" alt="Image missing...">' +
                                             '<div class="card-body">' +
                                                 '<h5 class="card-title" id="' + `${item}` + '">' + `${itemsObj[item]}` + '</h5>' +
                                             '</div>' +
