@@ -1,32 +1,28 @@
 {
-    "stie": "Shamrock.cafe",
+    "stie": "Brand",
     "labguages": ["cn", "en"],
     "pages": {
         "index": {
             "cn": {
-                "title": "三叶草 - 主页",
-                "brand": "三叶草",
+                "title": "点名 - 主页",
+                "brand": "店名",
                 "menu": "菜单",
                 "wechat": "微信",
                 "wechatmodalhint": "长按扫码/保存",
-                "call": "电话",
-                "contact": "联系人",
-                "map": "地图"
+                "call": "电话"
             },
             "en": {
-                "title": "Shamrock - Home",
-                "brand": "Shamrock",
+                "title": "Brand - Home",
+                "brand": "Brand",
                 "menu": "Menu",
                 "wechat": "Wechat",
                 "wechatmodalhint": "Long press to read/save QR code.",
-                "call": "Call",
-                "contact": "Contact",
-                "map": "Map"
+                "call": "Call"
             }
         },
         "menu": {
             "cn": {
-                "title": "三叶草 - 菜单",
+                "title": "店名 - 菜单",
                 "brand": "菜单",
                 "food": {
                     "name": "食物",
@@ -53,7 +49,7 @@
                             "soup": "时令靓汤 - ¥20",
                             "fried_onion_rings": "炸洋葱圈 - ¥30",
                             "french_fries_or_wedges": "炸薯条或薯角 - ¥30",
-                            "shamrock_salad": "三亚草沙拉 - ¥30",
+                            "shamrock_salad": "三叶草沙拉 - ¥30",
                             "tuna_salad": "金枪鱼三明治 - ¥45",
                             "fried_chicken_nuggets": "炸鸡块 - ¥35",
                             "hot_dog": "热狗 - ¥20"
@@ -195,7 +191,7 @@
                 }
             },
             "en": {
-                "title": "Shamrock - Menu",
+                "title": "Brand - Menu",
                 "brand": "Menu",
                 "food": {
                     "name": "Food",
