@@ -1,0 +1,111 @@
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: rgb(30, 33, 36);
+        color: white;
+    }
+
+    a, a:hover{
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body{
+        background-color: rgb(238, 238, 238);
+        color: black;
+    }
+
+    a, a:hover{
+        color: black;
+    }
+}
+
+#navbar-brand{
+    margin-left: 1vw;
+    size: 200%;
+}
+
+#brand {
+    font-size: 200%;
+}
+
+#languageSelector{
+    font-size: 200%;
+    margin-right: 1.5vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.carousel-inner{
+    height: 45vw;
+}
+
+.navbar-brand{
+    font-size: 300%;
+}
+
+.nav-link {
+    margin: 0vw 0.5vw 0vw;
+}
+
+#imhere{
+    height: 5vw;
+}
+
+#icons{
+    width: 95vw;
+    margin-left: 5vw;
+}
+
+.icon_group{
+    width: 18.2vw;
+    margin-right: 5vw;
+    margin-bottom: 1vw;
+    font-size: 300%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#item-logo{
+    width: 18.2vw;
+    margin-bottom: 1vw;
+}
+
+.modal{
+    width: 100vw;
+}
+
+.modal-title{
+    font-size: 300%;
+    color: black;
+}
+
+.btn{
+    font-size: 300%;
+}
+
+#footer{
+    font-size: 250%;
+    position: fixed;
+    left: 0;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid gray;
+    background-color: white;
+    color: black;
+}
+
+.dropdown-menu {
+    font-size: 200%;
+}
+
+.dropdown-item {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}

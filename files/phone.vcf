@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 14.7.1//EN
+N:;Shamrock;;;
+FN:Shamrock
+TEL;type=HOME;type=VOICE;type=pref:+86 (818) 207 04
+TEL;type=CELL;type=VOICE:+86 131 2548 4180
+item1.ADR;type=HOME;type=pref:;;兰亭苑30号1-102;大连市;辽宁;;中国大陆
+item1.X-ABADR:cn
+item1.X-APPLE-SUBLOCALITY:沙河口区
+item2.URL;type=pref:www.shamrock.cafe:8082
+item2.X-ABLabel:_$!<HomePage>!$_
+END:VCARD

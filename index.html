@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title id='title'>Shamrock - Home</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <script type="text/javascript" src="js/common.js"></script>
+  </head>
+  <body onload="changeToDefaultLanguage('index')">
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+      <div class="navbar-brand" id="navbar-brand">
+        <img src="icon/logo.png" style="margin-right: 1vw;">
+          <a id="brand">Shamrock</a>
+      </div>
+      <div class="text-muted justify-content-end" onclick="changeLanguage('index')" id="languageSelector" style="font-size: 300%;"><a id="en">En</a> / <a id="cn">中</a></div>
+    </nav>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="thumbnails/banner_1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="thumbnails/banner_2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="thumbnails/banner_3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <div id="imhere"></div>
+
+    <div id="icons">
+
+      <!-- 菜单 -->
+      <a href="menu.html" class="icon_group">
+        <img id="item-logo" src="icon/menu.png">
+        <p id="menu">Menu</p>
+      </a>
+
+      <!-- 微信 -->
+      <div class="icon_group" data-bs-toggle="modal" data-bs-target="#wechatmodal">
+        <img id="item-logo" src="icon/wechatlogo.png">
+        <p id="wechat">Wechat</p>
+      </div> 
+      <div class="modal fade" id="wechatmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="wechatmodalhint">Long press to read/save QR code.</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="icon/wechat.jpg" style="height: 47vw;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 电话 -->
+      <a href="tel:+8681820704" class="icon_group">
+        <img id="item-logo" src="icon/phone.png">
+        <p id="call">Call</p>
+      </a>
+
+      <!-- 联系人 -->
+      <a href="files/phone.vcf" class="icon_group">
+        <img id="item-logo" src="icon/contact.png">
+        <p id="contact">Contact</p>
+      </a>
+
+      <!-- 地图 -->
+      <a onclick="getMap()" class="icon_group">
+        <img id="item-logo" src="icon/map.png">
+        <p id="map">Map</p>
+      </a>
+
+      <!-- 抖音 -->
+      <!-- <a href="https://v.douyin.com/eYJgswK/" class="icon_group">
+        <img id="item-logo" src="icon/douyin.png">
+        <p id="tiktok">Tik Tok</p>
+      </a> -->
+
+      <!-- 摄影作品 -->
+      <!-- <a href="gallery.html" target="_blank" class="icon_group">
+        <img id="item-logo" src="icon/photos.png">
+        <p id="gallery">Gallery</p>
+      </a> -->
+
+    </div>
+
+    <div id="imhere"></div>
+
+    <!-- 尾注 -->
+    <div id="footer">
+      Ⓒ2021 Tianning Digital
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

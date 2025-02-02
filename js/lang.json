@@ -1,0 +1,369 @@
+{
+    "stie": "Shamrock.cafe",
+    "labguages": ["cn", "en"],
+    "pages": {
+        "index": {
+            "cn": {
+                "title": "三叶草 - 主页",
+                "brand": "三叶草",
+                "menu": "菜单",
+                "wechat": "微信",
+                "wechatmodalhint": "长按扫码/保存",
+                "call": "电话",
+                "contact": "联系人",
+                "map": "地图"
+            },
+            "en": {
+                "title": "Shamrock - Home",
+                "brand": "Shamrock",
+                "menu": "Menu",
+                "wechat": "Wechat",
+                "wechatmodalhint": "Long press to read/save QR code.",
+                "call": "Call",
+                "contact": "Contact",
+                "map": "Map"
+            }
+        },
+        "menu": {
+            "cn": {
+                "title": "三叶草 - 菜单",
+                "brand": "菜单",
+                "food": {
+                    "name": "食物",
+                    "category": {
+                        "main_courses": {
+                            "name": "主菜",
+                            "irish_breakfast": "爱尔兰早餐 - ¥65",
+                            "fish_and_chips": "炸鱼薯条 - ¥65",
+                            "shepherd_pie": "牧羊人派 - ¥65",
+                            "bangers_mesh": "香肠土豆泥 - ¥65",
+                            "beef_burger": "汉堡配薯条 - 单层¥50 or 双层¥65",
+                            "spaghetti_bolonage": "意大利面 - ¥50",
+                            "grilled_chicken": "烤鸡肉配时蔬 - ¥55",
+                            "irish_beef_and_guinness_stew": "爱尔兰健力士牛肉 - ¥65",
+                            "add_fries": "主菜加薯条 - ¥15"
+                            
+                        },
+                        "sandwich": {
+                            "name": "三明治",
+                            "tuna_sandwich": "金枪鱼三明治 - ¥45"
+                        },
+                        "sides": {
+                            "name": "小食",
+                            "soup": "时令靓汤 - ¥20",
+                            "fried_onion_rings": "炸洋葱圈 - ¥30",
+                            "french_fries_or_wedges": "炸薯条或薯角 - ¥30",
+                            "shamrock_salad": "三亚草沙拉 - ¥30",
+                            "tuna_salad": "金枪鱼三明治 - ¥45",
+                            "fried_chicken_nuggets": "炸鸡块 - ¥35",
+                            "hot_dog": "热狗 - ¥20"
+                        },
+                        "snacks": {
+                            "name": "零食",
+                            "lay's_dried_fries": "乐事非油炸薯条 - ¥10",
+                            "lay's_chips": "乐事薯片 - ¥10",
+                            "plum_juice": "寿全斋酸梅汤 - ¥10"
+                        }
+                    }
+                },
+                "drink": {
+                    "name": "饮品",
+                    "category": {
+                        "beer": {
+                            "name": "啤酒",
+                            "draught_asahi": "朝日扎啤(440毫升)- ¥20",
+                            "harbin": "哈尔滨啤酒 - ¥10",
+                            "asahi": "朝日(瓶装)- ¥20",
+                            "tsing_dao": "青岛啤酒 - ¥20",
+                            "corona": "科罗纳 - ¥25",
+                            "heineken": "喜力 - ¥25",
+                            "fosters": "福斯特 - ¥25",
+                            "guinness": "健力士(瓶装)- ¥30",
+                            "guinness_draught_can": "健力士干啤(听装)- ¥50",
+                            "hoegarden": "福佳白 - ¥30",
+                            "erdinger_black": "艾丁格黑啤 - ¥50",
+                            "erdinger_blonde_wheat": "艾丁格金小麦 - ¥50",
+                            "tempt_cider": "诱惑果酒 - ¥40"
+                        },
+                        "wine": {
+                            "name": "红酒",
+                            "life_full_vaucluse": "乐逢女神干红葡萄酒(🇫🇷)- ¥50/杯 or ¥200/瓶"
+                        },
+                        "whiskey": {
+                            "name": "威士忌",
+                            "jameson": "赞美臣(🇮🇪)- ¥30/杯 or ¥320/瓶",
+                            "tullamore_dew": "图拉多(🇮🇪)- ¥30/杯 or ¥320/瓶",
+                            "johnnie_walker_red": "尊尼获加红方 (󠁧󠁢🏴󠁧󠁢󠁳󠁣󠁴󠁿) - ¥30/杯 or ¥320/瓶",
+                            "johnnie_walker_black": "尊尼获加黑方 (󠁧󠁢🏴󠁧󠁢󠁳󠁣󠁴󠁿) - ¥40/杯 or ¥440/瓶",
+                            "jack_daniels": "杰克丹尼 (🇺🇸) - ¥30/杯 or ¥360/瓶",
+                            "jim_beam": "占边「美式玉米威士忌」 (🇺🇸) - ¥30/杯 or ¥360/瓶",
+                            "famous_grouse": "威雀 (🏴󠁧󠁢󠁳󠁣󠁴󠁿) - ¥40/杯 or ¥440/瓶",
+                            "southern_comfort": "金馥丽娇/南方安逸 (🇺🇸) - ¥40/杯 or ¥440/瓶",
+                            "canadian_club": "加拿大俱乐部 (🇨🇦) - ¥40/杯 or ¥440/瓶",
+                            "wild_turkey": "威凤凰/野火鸡 (🇺🇸) - ¥40/杯 or ¥440/瓶"
+                        },
+                        "aged_whiskey": {
+                            "name": "陈年威士忌",
+                            "chivas_regal": "芝华士 (12年) - ¥40/杯 or ¥540/瓶",
+                            "glenfidish": "格兰菲迪 (12年) - ¥40/杯 or ¥540/瓶",
+                            "laphioaig_peat": "拉弗格 (10年) - ¥50/杯 or ¥600/瓶",
+                            "glenlivct": "格伦威特 (12年) - ¥50/杯 or ¥600/瓶",
+                            "ballentines": "百灵坛 (17年) - ¥60/杯 or ¥750/瓶"
+                        },
+                        "vodka": {
+                            "name": "伏特加",
+                            "stolichanya": "斯托利/苏联红牌(🇷🇺)- ¥30/杯 or ¥320/瓶",
+                            "smirnolf_red": "斯米诺/皇冠红牌(🇬🇧)- ¥30/杯 or ¥320/瓶",
+                            "sky_vodka": "蓝天(🇸🇪)- ¥30/杯 or ¥320/瓶",
+                            "abusolute": "绝对(🇸🇪)- ¥35/杯 or ¥400/瓶",
+                            "finlanda": "芬兰(🇫🇮)- ¥40/杯 or ¥440/瓶",
+                            "grey_goose": "灰雁(🇫🇷)- ¥60/杯 or ¥740/瓶"
+                        },
+                        "gin": {
+                            "name": "金酒",
+                            "gordons": "哥顿超干 - ¥30/杯 or ¥320/瓶",
+                            "bombay_saphire": "孟买蓝宝石 - ¥35/杯 or ¥360/瓶",
+                            "tanqueiay": "添加利 - ¥40/杯 or ¥440/瓶"
+
+                        },
+                        "rum": {
+                            "name": "朗姆",
+                            "bacardi_w": "百加得白 - ¥30/杯 or ¥320/瓶",
+                            "bacardi_g": "百加得金 - ¥35/杯 or ¥360/瓶",
+                            "bacardi_b": "百加得黑- ¥40/杯 or ¥440/瓶",
+                            "capt_morgan_s": "摩根船长(香料) - ¥35/杯 or ¥360/瓶",
+                            "capt_morgan_d": "摩根船长(黑) - ¥35/杯 or ¥360/瓶",
+                            "mulata_silver": "慕兰潭/混血姑娘(银干) - ¥40/杯 or ¥440/瓶",
+                            "diplamatico": "外交官 - ¥45/杯 or ¥520/瓶"
+                        },
+                        "liquers": {
+                            "name": "力娇酒",
+                            "baileys_irish_cream": "百利甜爱尔兰 - ¥35/杯 or ¥340/瓶",
+                            "jagermeister": "野格/圣鹿 - ¥35/杯 or ¥360/瓶",
+                            "vaccari_sambuca": "森伯加(茴香味) - ¥35/杯 or ¥360/瓶",
+                            "jose_curvo_s": "豪帅/银快活 - ¥35/杯 or ¥360/瓶",
+                            "jose_curvo_g": "豪帅/金快活 - ¥40/杯 or ¥420/瓶",
+                            "olmeca_s": "奥美加(银)- ¥35/杯 or ¥360/瓶",
+                            "olmeca_g": "奥美加(金)- ¥40/杯 or ¥420/瓶",
+                            "cointreau": "君度 - ¥35/杯 or ¥360/瓶",
+                            "cherry_brandy": "樱桃白兰地 - ¥40/杯 or ¥420/瓶",
+                            "malibu": "马利宝椰子 - ¥35/杯 or ¥360/瓶",
+                            "amarula": "爱玛乐/大象酒 - ¥35/杯 or ¥360/瓶" 
+
+                        },
+                        "cocktails": {
+                            "name": "特制鸡尾酒",
+                            "hot_irish_whiskey": "热爱尔兰威士忌 - ¥35",
+                            "cuba_libre": "自由古巴 - ¥40",
+                            "black_russian": "黑俄罗斯 - ¥40",
+                            "white_russian": "白俄罗斯 - ¥40",
+                            "margarita": "玛格丽特 - ¥45",
+                            "tequila_sunrise": "龙舌兰日出 - ¥50",
+                            "mojito": "莫吉托 - ¥50",
+                            "long_island_tea": "长岛冰茶 - ¥50",
+                            "pina_colada": "椰林飘香 - ¥50",
+                            "vodka_spritzer": "苹果/梨伏特加斯伯利特 - ¥50",
+                            "wine_spritzer": "葡萄酒斯伯利特 - ¥50",
+                            "martini_jin": "马天尼配金酒/伏特加 - ¥50",
+                            "pear_martini": "苹果/梨马天尼 - ¥50",
+                            "baby_guinness": "婴儿健力士/吉尼斯 - ¥40",
+                            "blonade_babe": "金发宝贝 - ¥40",
+                            "bailey_hot_coffee": "百利甜热咖啡 - ¥40",
+                            "belfast_banana": "贝尔法斯特香蕉 - ¥50"
+                        },
+                        "soft_drinks": {
+                            "name": "软饮",
+                            "cola": "可口可乐/零度可乐 - ¥15/听",
+                            "soda_water": "苏打水 - ¥20/听",
+                            "tonic_water": "汤力水 - ¥20/听",
+                            "ginger_ale": "干姜麦芽水 - ¥20/听",
+                            "vanilla_soda": "香草苏打水- ¥20/听",
+                            "lemon_tea": "柠檬茶 - ¥20/杯",
+                            "apple_juice": "苹果汁 - ¥20/杯",
+                            "orange_juice": "橙汁 - ¥20/杯",
+                            "peach_juice": "桃汁 - ¥20/杯",
+                            "pineapple_juice": "菠萝汁 - ¥20/杯",
+                            "red_bull": "红牛 - ¥20/听"
+                        },
+                        "coffee&tea": {
+                            "name": "咖啡和茶",
+                            "selection_of_teas_available": "各式果茶，如蜂蜜柚子茶 - ¥20/杯 ",
+                            "hot_irish_coffee": "热爱尔兰咖啡 - ¥50/杯 ",
+                            "coffee": "咖啡(热/冰/加奶泡)- ¥20/杯 "
+                        }
+                    }
+                }
+            },
+            "en": {
+                "title": "Shamrock - Menu",
+                "brand": "Menu",
+                "food": {
+                    "name": "Food",
+                    "category": {
+                        "main_courses": {
+                            "name": "Main Course",
+                            "irish_breakfast": "Irish Breakfast - ¥65",
+                            "fish_and_chips": "Fish & Chips - ¥65",
+                            "shepherd_pie": "Shepherd's Pie - ¥65",
+                            "bangers_mesh": "Bangers & Mesh - ¥65",
+                            "beef_burger": "Beef Hamburger - Single Patty ¥50 or Double Patty ¥65",
+                            "spaghetti_bolonage": "Spaghetti - ¥50",
+                            "grilled_chicken": "Grilled Chicken - ¥55",
+                            "irish_beef_and_guinness_stew": "Irish Beef and Guinnes Stew - ¥65",
+                            "add_fries": "Add Fries to Main Courses - ¥15"
+                        },
+                        "sandwich": {
+                            "name": "Sandwich",
+                            "tuna_sandwich": "Tuna Sandwich - ¥45"
+                        },
+                        "sides": {
+                            "name": "Sides",
+                            "soup": "Soup - ¥20",
+                            "fried_onion_rings": "Fried Onion Rings - ¥30",
+                            "french_fries_or_wedges": "French Fries or Wedges - ¥30",
+                            "shamrock_salad": "Shamrock Salad - ¥30",
+                            "tuna_salad": "Tuna Salad - ¥45",
+                            "fried_chicken_nuggets": "Fried Chicken Nuggets - ¥35",
+                            "hot_dog": "Hot Dog - ¥20"
+                        },
+                        "snacks": {
+                            "name": "Snacks",
+                            "lay's_dried_fries": "Lay's Dried Fries - ¥10",
+                            "lay's_chips": "Lay's Chips - ¥10",
+                            "plum_juice": "Plum Juice - ¥10"
+                        }
+                    }
+                },
+                "drink": {
+                    "name": "Drink",
+                    "category": {
+                        "beer": {
+                            "name": "Beer",
+                            "draught_asahi": "Draught Asahi (440ml) - ¥20",
+                            "harbin": "Harbin - ¥10",
+                            "asahi": "Ashai (Bottle) - ¥20",
+                            "tsing_dao": "Tsing Dao - ¥20",
+                            "corona": "Corona - ¥25",
+                            "heineken": "Heineken - ¥25",
+                            "fosters": "Fosters - ¥25",
+                            "guinness": "Guinness (Bottle) - ¥30",
+                            "guinness_draught_can": "Guinness Draught (Can) - ¥50",
+                            "hoegarden": "Hoegarden - ¥30",
+                            "erdinger_black": "Erdinger Black - ¥50",
+                            "erdinger_blonde_wheat": "Erdinger Blonde Wheat - ¥50",
+                            "tempt_cider": "Tempt Cider - ¥40"
+                        },
+                        "wine": {
+                            "name": "Wine",
+                            "life_full_vaucluse": "Life Full Vaucluse(🇫🇷) - ¥50/Glass or ¥200/Bottle"
+                        },
+                        "whiskey": {
+                            "name": "Whiskey",
+                            "jameson": "Jameson (🇮🇪) - ¥30/Shot or ¥320/Bottle",
+                            "tullamore_dew": "Tullamore Dew (🇮🇪) - ¥30/Shot or ¥320/Bottle",
+                            "johnnie_walker_red": "Johnnie Walker Red (🏴󠁧󠁢󠁳󠁣󠁴󠁿) - ¥30/Shot or ¥320/Bottle",
+                            "johnnie_walker_black": "Johnnie Walker Black (🏴󠁧󠁢󠁳󠁣󠁴󠁿) - ¥40/Shot or ¥440/Bottle",
+                            "jack_daniels": "Jack Daniels (🇺🇸) - ¥30/Shot or ¥360/Bottle",
+                            "jim_beam": "Jim Beam (🇺🇸) - ¥30/Shot or ¥360/Bottle",
+                            "famous_grouse": "Famous Grouse (🏴󠁧󠁢󠁳󠁣󠁴󠁿) - ¥40/Shot or ¥440/Bottle",
+                            "southern_comfort": "Southern Comfort (🇺🇸) - ¥40/Shot or ¥440/Bottle",
+                            "canadian_club": "Canadian Club (🇨🇦) - ¥40/Shot or ¥440/Bottle",
+                            "wild_turkey": "Wild Turkey (🇺🇸) - ¥40/Shot or ¥440/Bottle"
+                        },
+                        "aged_whiskey": {
+                            "name": "Aged Whiskey",
+                            "chivas_regal": "Chivas Regal (12year) - ¥40/Shot or ¥540/Bottle",
+                            "glenfidish": "Glenfidish (12year) - ¥40/Shot or ¥540/Bottle",
+                            "laphioaig_peat": "Laphioai Peat (10year) - ¥50/Shot or ¥600/Bottle",
+                            "glenlivct": "Glenlivct (12year) - ¥50/Shot or ¥600/Bottle",
+                            "ballentines": "Ballentines (17year) - ¥60/Shot or ¥750/Bottle"
+                        },
+                        "vodka": {
+                            "name": "Vodka",
+                            "stolichanya": "Stolichanya(🇷🇺)- ¥30/Shot or ¥320/Bottle",
+                            "smirnolf_red": "Smirnolf Red(🇬🇧)- ¥30/Shot or ¥320/Bottle",
+                            "sky_vodka": "Sky(🇸🇪)- ¥30/Shot or ¥320/Bottle",
+                            "abusolute": "Abusolute(🇸🇪)- ¥35/Shot or ¥400/Bottle",
+                            "finlanda": "Finlanda(🇫🇮)- ¥40/Shot or ¥440/Bottle",
+                            "grey_goose": "Grey Goose(🇫🇷)- ¥60/Shot or ¥740/Bottle"
+                        },
+                        "gin": {
+                            "name": "Gin",
+                            "gordons": "Gordons Extra Dry  - ¥30/Shot or ¥320/Bottle",
+                            "bombay_saphire": "Bombay Saphire - ¥35/Shot or ¥360/Bottle",
+                            "tanqueiay": "Tanqueiay - ¥40/Shot or ¥440/Bottle"
+
+                        },
+                        "rum": {
+                            "name": "Rum",
+                            "bacardi_w": "Bacardi White - ¥30/Shot or ¥320/Bottle",
+                            "bacardi_g": "Bacardi Gold - ¥35/Shot or ¥360/Bottle",
+                            "bacardi_b": "Bacardi Black- ¥40/Shot or ¥440/Bottle",
+                            "capt_morgan_s": "Capt Morgan Spice - ¥35/Shot or ¥360/Bottle",
+                            "capt_morgan_d": "Capt Morgan Dark - ¥35/Shot or ¥360/Bottle",
+                            "mulata_silver": "Mulata Silver - ¥40/Shot or ¥440/Bottle",
+                            "diplamatico": "Diplamatico - ¥45/Shot or ¥520/Bottle"
+                        },
+                        "liquers": {
+                            "name": "Liquers",
+                            "baileys_irish_cream": "Baileys Irish Cream - ¥35/Shot or ¥340/Bottle",
+                            "jagermeister": "Jagermeister - ¥35/Shot or ¥360/Bottle",
+                            "vaccari_sambuca": "Vaccari Sambuca - ¥35/Shot or ¥360/Bottle",
+                            "jose_curvo_s": "Jose Curvo Silver - ¥35/Shot or ¥360/Bottle",
+                            "jose_curvo_g": "Jose Curvo Gold - ¥40/Shot or ¥420/Bottle",
+                            "olmeca_s": "Olmeca Silver - ¥35/Shot or ¥360/Bottle",
+                            "olmeca_g": "Olmeca Gold - ¥40/Shot or ¥4200/Bottle",
+                            "cointreau": "Cointreau - ¥35/Shot or ¥360/Bottle",
+                            "cherry_brandy": "Cherry Brandy - ¥40/Shot or ¥420/Bottle",
+                            "malibu": "Malibu - ¥35/Shot or ¥360/Bottle",
+                            "amarula": "Amarula - ¥35/Shot or ¥360/Bottle" 
+                        },
+                        "cocktails": {
+                            "name": "Cocktails",
+                            "hot_irish_whiskey": "Hot Irish Whiskey - ¥35",
+                            "cuba_libre": "Cuba Libre - ¥40",
+                            "black_russian": "Black Russian - ¥40",
+                            "white_russian": "White Russian - ¥40",
+                            "margarita": "Margarita - ¥45",
+                            "tequila_sunrise": "Tequila Sunrise - ¥50",
+                            "mojito": "Mojito - ¥50",
+                            "long_island_tea": "Long Island Tea - ¥50",
+                            "pina_colada": "Pina Colada - ¥50",
+                            "vodka_spritzer": "Apple/Pear Votka Spritzer - ¥50",
+                            "wine_spritzer": "Wine Spritzer - ¥50",
+                            "martini_jin": "Martini Jin/Votka - ¥50",
+                            "pear_martini": "Apple/Pear Martini - ¥50",
+                            "baby_guinness": "Baby Guinness - ¥40",
+                            "blonade_babe": "Blonade Babe - ¥40",
+                            "bailey_hot_coffee": "Bailey Hot Coffee - ¥40",
+                            "belfast_banana": "Belfast Banana - ¥50"
+                        },
+                        "soft_drinks": {
+                            "name": "Soft Drinks",
+                            "cola": "Coca Cola/Zero Coke - ¥15/Can",
+                            "soda_water": "Soda Water - ¥20/Can",
+                            "tonic_water": "Tonic Water - ¥20/Can",
+                            "ginger_ale": "Ginger Ale - ¥20/Can",
+                            "vanilla_soda": "Vanilla Soda- ¥20/Can",
+                            "lemon_tea": "Lemon Tea - ¥20/Box",
+                            "apple_juice": "Apple Juice - ¥20/Glass",
+                            "orange_juice": "Orange Juice - ¥20/Glass",
+                            "peach_juice": "Peach Juice - ¥20/Glass",
+                            "pineapple_juice": "Pineapple Juice - ¥20/Glass",
+                            "red_bull": "Red Bull - ¥20/Can"
+                        },
+                        "coffee&tea": {
+                            "name": "Coffee & Tea",
+                            "selection_of_teas_available": "Selection Of Teas Available - ¥20/Glass",
+                            "hot_irish_coffee": "Hot Irish Coffee - ¥50/Glass",
+                            "coffee": "Coffee-Hot/Iced/Milk- ¥20/Cup"
+                        }
+                    }
+                }
+            }
+        },
+        "gallery": {
+
+        }
+    }
+}

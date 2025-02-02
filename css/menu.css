@@ -1,0 +1,32 @@
+.col
+{
+    text-align: center;
+}
+
+.card
+{
+    margin-bottom: 5vw;
+}
+
+.menubreak {
+    width: 100vw;
+    font-size: 400%;
+    text-align: center;
+    color: white;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    padding: 10px;
+    border-style: hidden;
+    border-width: 1px;
+    border-radius: 3vw;
+    background-color: darkgreen;
+}
+
+h5 {
+    color: black;
+    font-size: 300%;
+}
+
+.nav-link {
+    font-size: 200%;
+}
