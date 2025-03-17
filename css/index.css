@@ -1,0 +1,14 @@
+#imhere{
+    height: 5vw;
+}
+
+.icon_group{
+    font-size: 150%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#item-logo{
+    width: 150px;
+}

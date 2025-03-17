@@ -1,6 +1,6 @@
 {
     "stie": "Brand",
-    "labguages": ["cn", "en"],
+    "languages": ["cn", "en"],
     "pages": {
         "index": {
             "cn": {

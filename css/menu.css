@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.card-title {
+    color: black;
+}
+
 .card
 {
     margin-bottom: 5vw;

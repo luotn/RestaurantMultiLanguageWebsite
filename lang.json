@@ -1,0 +1,89 @@
+{
+    "languages": ["en", "zh"],
+    "languageDisplay": ["English", "中文"],
+    "languageTranslate": ["Language", "语言"],
+    "pages" : {
+        "index": {
+            "en": {
+                "title": "Brand Name",
+                "menu": "Menu",
+                "phone": "Call",
+                "map": {
+                    "name": "Map",
+                    "link": "https://maps.app.goo.gl/QFqsW3NcbHpVbEnL8"
+                },
+                "social": {
+                    "platform": "wechat",
+                    "qr": true,
+                    "link": "wechat_qr.png"
+                }
+            },
+            "zh": {
+                "title": "品牌名",
+                "menu": "菜单",
+                "phone": "电话",
+                "map": {
+                    "name": "地图",
+                    "link": "https://maps.app.goo.gl/QFqsW3NcbHpVbEnL8"
+                },
+                "social": {
+                    "platform": "微信",
+                    "qr": true,
+                    "link": "wechat_qr.png"
+                }
+            }
+        },
+        "menu": {
+            "en": {
+                "title": "Brand Name - Menu",
+                "category": {
+                    "main": {
+                        "name": "Main",
+                        "description": "Description of Mains",
+                        "mainItem": {
+                            "name": "Main Item",
+                            "description": "Main Item Description",
+                            "price": 9.99,
+                            "discount": 5.0
+                        }
+                    },
+                    "dessert": {
+                        "name": "Dessert",
+                        "description": "Dessert Description",
+                        "dessertItem": {
+                            "name": "Dessert Item",
+                            "description": "Dessert Item Description",
+                            "price": 3.99,
+                            "discount": 0.0
+                        }
+                    }
+                }
+            },
+            "zh": {
+                "title": "品牌名 - 菜单",
+                "category": {
+                    "main": {
+                        "name": "主菜",
+                        "description": "主菜描述",
+                        "mainItem": {
+                            "name": "一个主菜",
+                            "description": "菜式描述",
+                            "price": 9.99,
+                            "discount": 5.0
+                        }
+                    },
+                    "dessert": {
+                        "name": "甜品",
+                        "description": "甜品描述",
+                        "dessertItem": {
+                            "name": "一种甜品",
+                            "description": "这种甜品的描述",
+                            "price": 3.99,
+                            "discount": 0.0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
