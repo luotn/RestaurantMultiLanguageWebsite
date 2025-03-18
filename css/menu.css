@@ -12,13 +12,36 @@
     margin-bottom: 5vw;
 }
 
-.menubreak {
-    width: 100vw;
-    font-size: 400%;
+#category{
+    vertical-align: baseline;
+}
+
+.breadcrumb{
+    padding-top: 24px;
+}
+
+.breadcrumb-item{
+    font-size: 20px;
+    color: white;
+    
+}
+
+.breadcrumb-item.active{
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.category-container{
+    scroll-margin-top: 100px;
+    width: 96vw;
+}
+
+.category{
+    font-size: 40px;
     text-align: center;
     color: white;
-    margin-top: 2vw;
-    margin-bottom: 5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
     border-style: hidden;
     border-width: 1px;
@@ -26,11 +49,16 @@
     background-color: darkgreen;
 }
 
+.category-description{
+    font-size: 25px;
+    color: lightgray;
+}
+
+#item-container{
+    min-width: intrinsic;
+}
+
 h5 {
     color: black;
     font-size: 300%;
-}
-
-.nav-link {
-    font-size: 200%;
 }

@@ -18,13 +18,20 @@
                 Menu
             </div>
 
+            <nav id="category" aria-label="breadcrumb" style="--bs-breadcrumb-divider: '|';">
+                <ol class="breadcrumb" id="categories">
+                    <a href="#main" class="breadcrumb-item">Main</a>
+                    <a href="#dessert" class="breadcrumb-item">Dessert</a>
+                </ol>
+            </nav>
+
             <div class="dropdown justify-content-end">
                 <button class="btn btn-secondary dropdown-toggle" id="languageButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
-                    <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
-                    <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/>
-                </svg>
-                <a id="languageButtonText">Language</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
+                        <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
+                        <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/>
+                    </svg>
+                    <a id="languageButtonText">Language</a>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-dark" id="languageSelector">
                     <li>
@@ -43,28 +50,70 @@
                 </ul>
             </div>
         </nav>
-        <div id="categories" class="btn-group sticky-top" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-primary">Left</button>
-            <button type="button" class="btn btn-primary">Middle</button>
-            <button type="button" class="btn btn-primary">Right</button>
-        </div>
+
         
-        <div id="album" class="row row-cols-2 row-cols-xl-3" style="margin: 1vw; margin-bottom: 5vw;">
+        <div id="album" data-bs-spy="scroll" data-bs-target="#categories" tabindex="0" style="margin: 1vw; margin-bottom: 5vw;">
 
-            <!-- Example menu break -->
-            <div class="menubreak" id="main_courses_menu">主菜</div>
+            <div id="main" class="category-container">
+                <!-- Example menu break -->
+                <div class="category">
+                    Main<br>
+                    <div class="category-description">Main description</div>
+                </div>
 
-            <!-- Example menu item -->
-            <div class="col">
-                <div class="card">
-                    <a href="./thumbnails/irish_breakfast.jpg">
-                        <img src="./thumbnails/irish_breakfast.jpg" class="card-img-top" alt="Image missing...">
-                        <div class="card-body">
-                            <h5 class="card-title" id="irish_breakfast">Irish Breakfast</h5>
+                <div class="container text-center" id="item-container">
+                    <div class="row align-items-start">
+                        <!-- Example menu item -->
+                        <div class="col-6 col-xxl-3 col-xl-4 menu-item">
+                            <div class="card">
+                                <a href="./thumbnails/irish_breakfast.jpg">
+                                    <img src="./thumbnails/irish_breakfast.jpg" class="card-img-top" alt="Image missing...">
+                                    <div class="card-body">
+                                        <h5 class="card-title" id="irish_breakfast">Irish Breakfast</h5>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </a>
+
+                        <div class="col-6 col-xxl-3 col-xl-4 menu-item">
+                            <div class="card">
+                                <a href="./thumbnails/irish_breakfast.jpg">
+                                    <img src="./thumbnails/irish_breakfast.jpg" class="card-img-top" alt="Image missing...">
+                                    <div class="card-body">
+                                        <h5 class="card-title" id="irish_breakfast">Irish Breakfast</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div id="dessert" class="category-container">
+                <!-- Example menu break -->
+                <div class="category" id="dessert">
+                    Dessert<br>
+                    <div class="category-description">Dessert description</div>
+                </div>
+
+                <div class="container text-center" id="item-container">
+                    <div class="row align-items-start">
+                        <!-- Example menu item -->
+                        <div class="col-6 col-xxl-3 col-xl-4 menu-item">
+                            <div class="card">
+                                <a href="./thumbnails/irish_breakfast.jpg">
+                                    <img src="./thumbnails/fried_onion_rings.JPG" class="card-img-top" alt="Image missing...">
+                                    <div class="card-body">
+                                        <h5 class="card-title" id="fried_onion_rings">Fried Onion Rings</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
 
         </div>
 
