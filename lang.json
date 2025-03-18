@@ -8,29 +8,49 @@
                 "title": "Brand Name",
                 "menu": "Menu",
                 "phone": "Call",
+                "number": "+44-1234-567890",
                 "map": {
                     "name": "Map",
                     "link": "https://maps.app.goo.gl/QFqsW3NcbHpVbEnL8"
                 },
-                "social": {
+                "social": [{
                     "platform": "wechat",
+                    "name": "Wechat",
+                    "icon": "./icons/wechatlogo.png",
                     "qr": true,
-                    "link": "wechat_qr.png"
-                }
+                    "link": "./icons/wechat_qr.png"
+                }, {
+                    "platform": "youtube",
+                    "name": "YouTube",
+                    "icon": "./icons/youtube.png",
+                    "qr": false,
+                    "link": "https://www.youtube.com/@digtaltianning477"
+                }],
+                "qrHint": "Long press to read/save QR code."
             },
             "zh": {
                 "title": "品牌名",
                 "menu": "菜单",
                 "phone": "电话",
+                "number": "+44-1234-567890",
                 "map": {
                     "name": "地图",
                     "link": "https://maps.app.goo.gl/QFqsW3NcbHpVbEnL8"
                 },
-                "social": {
-                    "platform": "微信",
+                "social": [{
+                    "platform": "wechat",
+                    "name": "微信",
+                    "icon": "./icons/wechatlogo.png",
                     "qr": true,
-                    "link": "wechat_qr.png"
-                }
+                    "link": "./icons/wechat_qr.png"
+                }, {
+                    "platform": "youtube",
+                    "name": "YouTube",
+                    "icon": "./icons/youtube.png",
+                    "qr": false,
+                    "link": "https://www.youtube.com/@digtaltianning477"
+                }],
+                "qrHint": "长按扫描/保存二维码。"
             }
         },
         "menu": {
