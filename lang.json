@@ -6,7 +6,18 @@
         "index": {
             "en": {
                 "title": "Brand Name",
-                "menu": "Menu",
+                "menus": [
+                    {
+                        "name": "lunchMenu",
+                        "translate": "Lunch Menu",
+                        "icon": "./icons/lunch_menu.png"
+                    },
+                    {
+                        "name": "breakfastMenu",
+                        "translate": "Breakfast Menu",
+                        "icon": "./icons/breakfast_menu.png"
+                    }
+                ],
                 "phone": "Call",
                 "number": "+44-1234-567890",
                 "map": {
@@ -30,7 +41,18 @@
             },
             "zh": {
                 "title": "品牌名",
-                "menu": "菜单",
+                "menus": [
+                    {
+                        "name": "lunchMenu",
+                        "translate": "午餐菜单",
+                        "icon": "./icons/lunch_menu.png"
+                    },
+                    {
+                        "name": "breakfastMenu",
+                        "translate": "早餐菜单",
+                        "icon": "./icons/breakfast_menu.png"
+                    }
+                ],
                 "phone": "电话",
                 "number": "+44-1234-567890",
                 "map": {
@@ -53,54 +75,120 @@
                 "qrHint": "长按扫描/保存二维码。"
             }
         },
-        "menu": {
+        "lunchMenu": {
             "en": {
-                "title": "Brand Name - Menu",
+                "title": "Lunch Menu",
+                "description": "Lunch time: 11:00 - 15:00",
                 "category": {
                     "main": {
                         "name": "Main",
                         "description": "Description of Mains",
-                        "mainItem": {
-                            "name": "Main Item",
-                            "description": "Main Item Description",
-                            "price": 9.99,
-                            "discount": 5.0
-                        }
+                        "items": [{
+                            "name": "irish_breakfast",
+                            "translate": "Irish Breakfast",
+                            "description": "Irish Breakfast Description",
+                            "price": 19.99
+                        }, {
+                            "name": "bangers_mesh",
+                            "translate": "Bangers Mesh",
+                            "description": "Bangers Mesh Description",
+                            "price": 15.99
+                        }]
                     },
                     "dessert": {
                         "name": "Dessert",
                         "description": "Dessert Description",
-                        "dessertItem": {
-                            "name": "Dessert Item",
-                            "description": "Dessert Item Description",
-                            "price": 3.99,
-                            "discount": 0.0
-                        }
+                        "items": [{
+                            "name": "cola",
+                            "translate": "CocaCola",
+                            "description": "CocaCola Description",
+                            "price": 2.99
+                        }]
                     }
                 }
             },
             "zh": {
-                "title": "品牌名 - 菜单",
+                "title": "午餐菜单",
+                "description": "午餐时段：11:00 - 15:00",
                 "category": {
                     "main": {
                         "name": "主菜",
                         "description": "主菜描述",
-                        "mainItem": {
-                            "name": "一个主菜",
-                            "description": "菜式描述",
-                            "price": 9.99,
-                            "discount": 5.0
-                        }
+                        "items": [{
+                            "name": "irish_breakfast",
+                            "translate": "爱尔兰早餐",
+                            "description": "爱尔兰早餐描述",
+                            "price": 19.99
+                        }, {
+                            "name": "bangers_mesh",
+                            "translate": "香肠土豆泥",
+                            "description": "香肠土豆泥描述",
+                            "price": 15.99
+                        }]
                     },
                     "dessert": {
                         "name": "甜品",
                         "description": "甜品描述",
-                        "dessertItem": {
-                            "name": "一种甜品",
-                            "description": "这种甜品的描述",
-                            "price": 3.99,
-                            "discount": 0.0
-                        }
+                        "items": [{
+                            "name": "cola",
+                            "translate": "可口可乐",
+                            "description": "可口可乐描述",
+                            "price": 2.99
+                        }]
+                    }
+                }
+            }
+        },
+        "breakfastMenu": {
+            "en": {
+                "title": "Breakfast Menu",
+                "description": "Breakfast time: 8:00 - 11:00",
+                "category": {
+                    "main": {
+                        "name": "Main",
+                        "description": "Description of Mains",
+                        "items": [{
+                            "name": "irish_breakfast",
+                            "translate": "Irish Breakfast",
+                            "description": "Irish Breakfast Description",
+                            "price": 19.99
+                        }]
+                    },
+                    "dessert": {
+                        "name": "Dessert",
+                        "description": "Dessert Description",
+                        "items": [{
+                            "name": "cola",
+                            "translate": "CocaCola",
+                            "description": "CocaCola Description",
+                            "price": 2.99
+                        }]
+                    }
+                }
+            },
+            "zh": {
+                "title": "早餐菜单",
+                "description": "早餐时段：8:00 - 11:00",
+                "category": {
+                    "main": {
+                        "name": "主菜",
+                        "description": "主菜描述",
+                        "items": [{
+                            "name": "irish_breakfast",
+                            "translate": "爱尔兰早餐",
+                            "description": "爱尔兰早餐描述",
+                            "price": 19.99
+                        }]
+                    },
+                    "dessert": {
+                        "name": "甜品",
+                        "description": "甜品描述",
+                        "items": [{
+                            "name": "cola",
+                            "translate": "可口可乐",
+                            "description": "可口可乐描述",
+                            "price": 2.99
+                        }]
                     }
                 }
             }

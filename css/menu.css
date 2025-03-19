@@ -34,6 +34,12 @@ a.breadcrumb-item:hover{
     color: greenyellow;
 }
 
+#menu_description{
+    font-size: 30px;
+    padding-left: 5vw;
+    padding-top: 1vw;
+}
+
 .category-container{
     scroll-margin-top: 100px;
     width: 96vw;
@@ -67,5 +73,15 @@ h5 {
 }
 
 .modal-body{
-    font-size: 20px;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+}
+
+.modal-title{
+    color: black;
+}
+
+.close-button{
+    font-size: 40px;
 }

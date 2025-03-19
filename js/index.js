@@ -9,14 +9,22 @@ function translatePageElements() {
     document.getElementById("navbar-brand").innerHTML = indexTranslates.title
 
     // Index icons
+    // Menu icons
+    let menuIcons = ""
+
+    for(let i = 0; i < indexTranslates.menus.length; i++){
+        let currentMenu = indexTranslates.menus[i]
+        menuIcons +=
+        '        <!-- ' + currentMenu.name + ' -->\n' +
+        '        <a href="./menu.html?menu=' + currentMenu.name + '" class="icon_group col">\n' +
+        '          <img id="item-logo" src="' + currentMenu.icon + '">\n' +
+        '          <p id="menu">' + currentMenu.translate + '</p>\n' +
+        '        </a>\n' +
+        '        \n'
+    }
+
     // Fixed icons
     let fixedIcons = 
-    '        <!-- menu -->\n' +
-    '        <a href="./menu.html" class="icon_group col">\n' +
-    '          <img id="item-logo" src="./icons/menu.png">\n' +
-    '          <p id="menu">' + indexTranslates.menu + '</p>\n' +
-    '        </a>\n' +
-    '        \n' +
     '        <!-- Tel -->\n' +
     '        <a href="tel:' + indexTranslates.number + '" class="icon_group col">\n' +
     '          <img id="item-logo" src="./icons/phone.png">\n' +
@@ -63,5 +71,5 @@ function translatePageElements() {
         }
     }
 
-    document.getElementById("icon_group").innerHTML = fixedIcons + socialResult
+    document.getElementById("icon_group").innerHTML = menuIcons + fixedIcons + socialResult
 }
