@@ -14,9 +14,9 @@
     <body onload="init('menu')">
         <!-- navbar -->
         <nav class="navbar sticky-top bg-dark">
-            <div class="navbar-brand" id="navbar-brand"href="./index.html">
-                Menu
-            </div>
+            <a class="navbar-brand" id="navbar-brand" href="./index.html">
+                Brand - Menu
+            </a>
 
             <nav id="category" aria-label="breadcrumb" style="--bs-breadcrumb-divider: '|';">
                 <ol class="breadcrumb" id="categories">
@@ -66,12 +66,33 @@
                         <!-- Example menu item -->
                         <div class="col-6 col-xxl-3 col-xl-4 menu-item">
                             <div class="card">
-                                <a href="./thumbnails/irish_breakfast.jpg">
+                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#irish-breakfast">
                                     <img src="./thumbnails/irish_breakfast.jpg" class="card-img-top" alt="Image missing...">
                                     <div class="card-body">
-                                        <h5 class="card-title" id="irish_breakfast">Irish Breakfast</h5>
+                                        <h5 class="card-title" id="irish_breakfast">Irish Breakfast - £19.99</h5>
                                     </div>
-                                </a>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Menu item description -->
+                        <div class="modal fade" id="irish-breakfast" tabindex="-1" aria-labelledby="irish-breakfastModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title" id="irish-breakfastModalLabel">Irish Breakfast</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        This is the description of a menu item.
+                                        This description can be really long...
+                                        <br><br><br><br><br><br><br><br><br>1<br><br><br><br><br><br><br><br><br><br><br><br><br>2<br><br><br><br><br><br><br><br><br><br>3<br><br><br><br><br><br>4<br><br><br><br><br><br><br><br><br>5<br><br><br>
+                                        Hi!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
