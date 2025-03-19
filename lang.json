@@ -8,14 +8,12 @@
                 "title": "Brand Name",
                 "menus": [
                     {
-                        "name": "lunchMenu",
-                        "translate": "Lunch Menu",
-                        "icon": "./icons/lunch_menu.png"
+                        "name": "lunch_menu",
+                        "translate": "Lunch Menu"
                     },
                     {
-                        "name": "breakfastMenu",
-                        "translate": "Breakfast Menu",
-                        "icon": "./icons/breakfast_menu.png"
+                        "name": "breakfast_menu",
+                        "translate": "Breakfast Menu"
                     }
                 ],
                 "phone": "Call",
@@ -27,13 +25,11 @@
                 "social": [{
                     "platform": "wechat",
                     "name": "Wechat",
-                    "icon": "./icons/wechatlogo.png",
                     "qr": true,
                     "link": "./icons/wechat_qr.png"
                 }, {
                     "platform": "youtube",
                     "name": "YouTube",
-                    "icon": "./icons/youtube.png",
                     "qr": false,
                     "link": "https://www.youtube.com/@digtaltianning477"
                 }],
@@ -43,14 +39,12 @@
                 "title": "品牌名",
                 "menus": [
                     {
-                        "name": "lunchMenu",
-                        "translate": "午餐菜单",
-                        "icon": "./icons/lunch_menu.png"
+                        "name": "lunch_menu",
+                        "translate": "午餐菜单"
                     },
                     {
-                        "name": "breakfastMenu",
-                        "translate": "早餐菜单",
-                        "icon": "./icons/breakfast_menu.png"
+                        "name": "breakfast_menu",
+                        "translate": "早餐菜单"
                     }
                 ],
                 "phone": "电话",
@@ -62,20 +56,18 @@
                 "social": [{
                     "platform": "wechat",
                     "name": "微信",
-                    "icon": "./icons/wechatlogo.png",
                     "qr": true,
                     "link": "./icons/wechat_qr.png"
                 }, {
                     "platform": "youtube",
                     "name": "YouTube",
-                    "icon": "./icons/youtube.png",
                     "qr": false,
                     "link": "https://www.youtube.com/@digtaltianning477"
                 }],
                 "qrHint": "长按扫描/保存二维码。"
             }
         },
-        "lunchMenu": {
+        "lunch_menu": {
             "en": {
                 "title": "Lunch Menu",
                 "description": "Lunch time: 11:00 - 15:00",
@@ -139,7 +131,7 @@
                 }
             }
         },
-        "breakfastMenu": {
+        "breakfast_menu": {
             "en": {
                 "title": "Breakfast Menu",
                 "description": "Breakfast time: 8:00 - 11:00",

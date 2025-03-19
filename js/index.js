@@ -17,7 +17,7 @@ function translatePageElements() {
         menuIcons +=
         '        <!-- ' + currentMenu.name + ' -->\n' +
         '        <a href="./menu.html?menu=' + currentMenu.name + '" class="icon_group col">\n' +
-        '          <img id="item-logo" src="' + currentMenu.icon + '">\n' +
+        '          <img id="item-logo" src="./icons/' + currentMenu.name + '.png">\n' +
         '          <p id="menu">' + currentMenu.translate + '</p>\n' +
         '        </a>\n' +
         '        \n'
@@ -45,7 +45,7 @@ function translatePageElements() {
             socialResult +=
             '          <!-- ' + social.platform + ' -->\n' +
             '          <div class="icon_group col" data-bs-toggle="modal" data-bs-target="#' + social.platform + 'modal">\n' +
-            '              <img id="item-logo" src="' + social.icon + '">\n' + 
+            '              <img id="item-logo" src="./icons/' + social.platform + '.png">\n' + 
             '              <p id="' + social.platform + '">' + social.name + '</p>\n' +
             '          </div>\n' +
             '          <div class="modal fade" id="' + social.platform + 'modal" tabindex="-1" aria-labelledby="' + social.platform + 'ModalLabel" aria-hidden="true">\n' +
@@ -65,7 +65,7 @@ function translatePageElements() {
             socialResult +=
             '<!-- ' + social.platform + ' -->\n' +
             '<a href="' + social.link + '" class="icon_group col">\n' +
-            '    <img id="item-logo" src="' + social.icon + '">\n' +
+            '    <img id="item-logo" src="./icons/' + social.name + '.png">\n' +
             '    <p id="' + social.platform + '">' + social.name + '</p>\n' +
             '</a>\n'
         }
