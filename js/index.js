@@ -65,7 +65,7 @@ function translatePageElements() {
             socialResult +=
             '<!-- ' + social.platform + ' -->\n' +
             '<a href="' + social.link + '" class="icon_group col">\n' +
-            '    <img id="item-logo" src="./icons/' + social.name + '.png">\n' +
+            '    <img id="item-logo" src="./icons/' + social.platform + '.png">\n' +
             '    <p id="' + social.platform + '">' + social.name + '</p>\n' +
             '</a>\n'
         }
